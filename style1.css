@@ -1,0 +1,61 @@
+body{
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+   justify-content: center;
+   
+}
+
+.blue{
+    background-color: #30acff;
+}  
+
+.fuerte{
+    background-color: rgb(6, 90, 216); 
+
+}
+
+.form-examen{
+    width: 400px;
+    background-color: rgb(83, 210, 248);
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-width: 30px;
+    border: 10px solid #2316e6;
+    color: #3532e9;
+    }
+
+    .boton{
+        width: 33%;
+        padding: 35px;
+        margin-bottom: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: 200px;
+       float: right;
+       margin-right: 10px;
+    margin-top: -120px;
+    color: blue;
+    }  
+    
+
+    .barra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .blue, .fuerte {
+        border: 1px solid #141d20;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        padding: 10px 30px;
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+        margin: 0;
+        border-right: none;
+      }
